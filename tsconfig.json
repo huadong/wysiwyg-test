@@ -1,0 +1,23 @@
+{
+    "compilerOptions": {
+        "outDir": "./dist/js",
+        "sourceMap": true,
+        "noImplicitAny": true,
+        "module": "commonjs",
+        "target": "es5",
+        "jsx": "react",
+        "pretty": true,
+        "typeRoots": ["./@types"],
+        "lib": [
+            "dom",
+            "es5",
+            "es6",
+            "scripthost",
+            "es2015.iterable"
+        ]
+    },
+    "include": [
+        "./src/**/*",
+        "./@types/**/*"
+    ]
+}
