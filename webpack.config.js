@@ -91,8 +91,8 @@ module.exports = {
     },
     externals: {
         'jquery': 'jQuery',
-        // 'react': 'React',
-        // 'react-dom': 'ReactDOM',
+        'react': 'React',
+        'react-dom': 'ReactDOM',
         // 'redux': 'Redux',
         // 'lodash': '_',
         // 'moment': 'moment',

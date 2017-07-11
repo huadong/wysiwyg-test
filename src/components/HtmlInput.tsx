@@ -48,7 +48,7 @@ export class HtmlInput extends Component<HtmlInputProps, HtmlInputState> {
         const { contentState } = this.state;
         return (
             <Editor
-                contentState={contentState}
+                defaultContentState={contentState}
                 onContentStateChange={(contentState) => this.onChange(contentState)}
                 toolbarClassName="home-toolbar"
                 wrapperClassName="home-wrapper"
